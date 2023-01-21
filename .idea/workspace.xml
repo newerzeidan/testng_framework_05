@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3dd4aa0c-ff53-453c-b4d3-b1fb7367ff2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalCheckBoxPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalRadioButtonsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalCheckBoxTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalRadioButtonsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smoke.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,18 +47,11 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.TechGlobalWaitsTest.validateRedBox">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="App" />
-      <module name="testng_framework_05" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TechGlobalDynamicElementsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TechGlobalLogoTest.validateTechGlobalLogo">
+    <configuration name="TechGlobalCheckBoxTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng_framework_05" />
       <extension name="coverage">
         <pattern>
@@ -65,7 +60,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="scripts" />
-      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalDynamicElementsTest" />
+      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalCheckBoxTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -73,7 +68,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TechGlobalDynamicElementsTest.dynamicElementsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TechGlobalCheckBoxTest.validateCheckboxes" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng_framework_05" />
       <extension name="coverage">
         <pattern>
@@ -82,8 +77,44 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="scripts" />
-      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalDynamicElementsTest" />
-      <option name="METHOD_NAME" value="dynamicElementsTest" />
+      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalCheckBoxTest" />
+      <option name="METHOD_NAME" value="validateCheckboxes" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TechGlobalLogoTest.validateTechGlobalLogo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testng_framework_05" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scripts" />
+      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalLogoTest" />
+      <option name="METHOD_NAME" value="validateTechGlobalLogo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TechGlobalRadioButtonsTest.toolsRadioButton" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testng_framework_05" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scripts" />
+      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalRadioButtonsTest" />
+      <option name="METHOD_NAME" value="toolsRadioButton" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -109,30 +140,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_01_Annotations" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testng_framework_05" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testng_knowledge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testng_knowledge" />
-      <option name="MAIN_CLASS_NAME" value="testng_knowledge._01_Annotations" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TechGlobalLogoTest.validateTechGlobalLogo" />
+        <item itemvalue="TestNG.TechGlobalCheckBoxTest.validateCheckboxes" />
+        <item itemvalue="TestNG.TechGlobalCheckBoxTest" />
+        <item itemvalue="TestNG.TechGlobalRadioButtonsTest.toolsRadioButton" />
         <item itemvalue="TestNG.TechGlobalWaitsTest.validateRedBox" />
-        <item itemvalue="TestNG.TechGlobalDynamicElementsTest.dynamicElementsTest" />
-        <item itemvalue="TestNG.TechGlobalDynamicElementsTest" />
-        <item itemvalue="TestNG._01_Annotations" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
