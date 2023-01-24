@@ -15,6 +15,10 @@ public class TechGlobalBase {
     TechGlobalWaitsPage techGlobalWaitsPage;
     TechGlobalRadioButtonsPage techGlobalRadioButtonsPage;
     TechGlobalCheckBoxPage techGlobalCheckBoxPage;
+    TechGlobalDropdownsPage techGlobalDropdownsPage;
+    TechGlobalMultipleWindowsPage techGlobalMultipleWindowsPage;
+    TechGlobalAlertsPage techGlobalAlertsPage;
+    TechGlobalDynamicTablesPage techGlobalDynamicTablesPage;
 
     @BeforeMethod
     public void setup(){
