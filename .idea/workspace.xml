@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3dd4aa0c-ff53-453c-b4d3-b1fb7367ff2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalAlertsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalDropdownsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalDynamicTablesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalMultipleWindowsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalAlertsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalDropdownsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalDynamicTablesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalMultipleWindowsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/AlertHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/DropdownHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/WindowHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression.xml" beforeDir="false" afterPath="$PROJECT_DIR$/regression.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalLogoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalLogoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
