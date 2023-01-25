@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3dd4aa0c-ff53-453c-b4d3-b1fb7367ff2a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/intergration.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smoketest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testng_knowledge/_07_Groups.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -44,43 +48,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG./Users/newerzeidan/IdeaProjects/testng_framework_05/regression.xml">
-    <configuration name="TechGlobalCheckBoxTest.validateCheckboxes" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testng_framework_05" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="scripts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="scripts" />
-      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalCheckBoxTest" />
-      <option name="METHOD_NAME" value="validateCheckboxes" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TechGlobalLogoTest.validateTechGlobalLogo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testng_framework_05" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="scripts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="scripts" />
-      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalLogoTest" />
-      <option name="METHOD_NAME" value="validateTechGlobalLogo" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG./Users/newerzeidan/IdeaProjects/testng_framework_05/intergration.xml">
     <configuration name="TechGlobalMultipleWindowsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng_framework_05" />
       <extension name="coverage">
@@ -92,6 +60,16 @@
       <option name="PACKAGE_NAME" value="scripts" />
       <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalMultipleWindowsTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/newerzeidan/IdeaProjects/testng_framework_05/intergration.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testng_framework_05" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/intergration.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -118,13 +96,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/newerzeidan/IdeaProjects/testng_framework_05/smoketest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testng_framework_05" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/smoketest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/newerzeidan/IdeaProjects/testng_framework_05/intergration.xml" />
+        <item itemvalue="TestNG./Users/newerzeidan/IdeaProjects/testng_framework_05/smoketest.xml" />
         <item itemvalue="TestNG./Users/newerzeidan/IdeaProjects/testng_framework_05/regression.xml" />
         <item itemvalue="TestNG.TechGlobalMultipleWindowsTest" />
         <item itemvalue="TestNG./Users/newerzeidan/IdeaProjects/testng_framework_05/smoke.xml" />
-        <item itemvalue="TestNG.TechGlobalLogoTest.validateTechGlobalLogo" />
-        <item itemvalue="TestNG.TechGlobalCheckBoxTest.validateCheckboxes" />
       </list>
     </recent_temporary>
   </component>
