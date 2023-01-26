@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3dd4aa0c-ff53-453c-b4d3-b1fb7367ff2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/intergration.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smoketest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testng_knowledge/_07_Groups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/global_configs.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/globals.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parallel_classes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parallel_methods.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parameterization.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testng_knowledge/_08_Parallel_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testng_knowledge/_09_Parallel_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testng_knowledge/_10_Parameterization.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,18 +53,36 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG./Users/newerzeidan/IdeaProjects/testng_framework_05/intergration.xml">
-    <configuration name="TechGlobalMultipleWindowsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG._08_Parallel_Test.method3">
+    <configuration name="_08_Parallel_Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng_framework_05" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scripts.*" />
+          <option name="PATTERN" value="testng_knowledge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="scripts" />
-      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalMultipleWindowsTest" />
+      <option name="PACKAGE_NAME" value="testng_knowledge" />
+      <option name="MAIN_CLASS_NAME" value="testng_knowledge._08_Parallel_Test" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_08_Parallel_Test.method3" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testng_framework_05" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testng_knowledge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testng_knowledge" />
+      <option name="MAIN_CLASS_NAME" value="testng_knowledge._08_Parallel_Test" />
+      <option name="METHOD_NAME" value="method3" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -86,16 +109,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/newerzeidan/IdeaProjects/testng_framework_05/smoke.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testng_framework_05" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/smoke.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="/Users/newerzeidan/IdeaProjects/testng_framework_05/smoketest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng_framework_05" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/smoketest.xml" />
@@ -108,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG._08_Parallel_Test.method3" />
+        <item itemvalue="TestNG._08_Parallel_Test" />
         <item itemvalue="TestNG./Users/newerzeidan/IdeaProjects/testng_framework_05/intergration.xml" />
         <item itemvalue="TestNG./Users/newerzeidan/IdeaProjects/testng_framework_05/smoketest.xml" />
         <item itemvalue="TestNG./Users/newerzeidan/IdeaProjects/testng_framework_05/regression.xml" />
-        <item itemvalue="TestNG.TechGlobalMultipleWindowsTest" />
-        <item itemvalue="TestNG./Users/newerzeidan/IdeaProjects/testng_framework_05/smoke.xml" />
       </list>
     </recent_temporary>
   </component>
