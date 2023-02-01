@@ -6,12 +6,13 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.TechGlobalFrontendTestingHomePage;
 import pages.TechGlobalSortableTablesPage;
-import utilities.TableData;
+import utilities.TableHandler;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class TechGlobalSortableTablesTest extends TechGlobalBase{
+
     @BeforeMethod
     public void setPage(){
         techGlobalFrontendTestingHomePage = new TechGlobalFrontendTestingHomePage();
@@ -33,7 +34,7 @@ public class TechGlobalSortableTablesTest extends TechGlobalBase{
     public void validateSortAscByQuantity(){
         techGlobalSortableTablesPage.ascByQuantity.click();
 
-        List<WebElement> quantityColumnElements = TableData.getTableColumn(driver, 1);
+        List<WebElement> quantityColumnElements = TableHandler.getTableColumn(driver, 1);
         List<Integer> quantityColumn = new ArrayList<>();
 
         for (WebElement element : quantityColumnElements) {
@@ -58,7 +59,7 @@ public class TechGlobalSortableTablesTest extends TechGlobalBase{
     public void validateSortDescByQuantity(){
         techGlobalSortableTablesPage.descByQuantity.click();
 
-        List<WebElement> quantityColumnElements = TableData.getTableColumn(driver, 1);
+        List<WebElement> quantityColumnElements = TableHandler.getTableColumn(driver, 1);
         List<Integer> quantityColumn = new ArrayList<>();
 
         for (WebElement element : quantityColumnElements) {
@@ -83,7 +84,7 @@ public class TechGlobalSortableTablesTest extends TechGlobalBase{
     public void validateSortAscByPrice(){
         techGlobalSortableTablesPage.ascByPrice.click();
 
-        List<WebElement> priceColumnElements = TableData.getTableColumn(driver, 3);
+        List<WebElement> priceColumnElements = TableHandler.getTableColumn(driver, 3);
         List<Integer> priceColumn = new ArrayList<>();
 
         for (WebElement element : priceColumnElements) {
@@ -108,7 +109,7 @@ public class TechGlobalSortableTablesTest extends TechGlobalBase{
     public void validateSortDescByPrice(){
         techGlobalSortableTablesPage.descByPrice.click();
 
-        List<WebElement> priceColumnElements = TableData.getTableColumn(driver, 3);
+        List<WebElement> priceColumnElements = TableHandler.getTableColumn(driver, 3);
         List<Integer> priceColumn = new ArrayList<>();
 
         for (WebElement element : priceColumnElements) {

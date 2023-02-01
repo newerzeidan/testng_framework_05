@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3dd4aa0c-ff53-453c-b4d3-b1fb7367ff2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalCalendarPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalSortableTestTablesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalCalenderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TextHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalActionsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalActionsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/TechGlobalDynamicTablesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalDynamicTablesPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TechGlobalStaticTablesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TechGlobalStaticTablesPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalDynamicTablesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalDynamicTablesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalSortableTablesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalSortableTablesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalStaticTablesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scripts/TechGlobalStaticTablesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TableData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TableHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +54,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.TechGlobalSortableTablesTest.validateSortDescByPrice">
-    <configuration name="TechGlobalIFramesTest.validateInputAndResults" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TechGlobalActionsTest.clickActions">
+    <configuration name="TechGlobalActionsTest.clickActions" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testng_framework_05" />
       <extension name="coverage">
         <pattern>
@@ -64,8 +64,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="scripts" />
-      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalIFramesTest" />
-      <option name="METHOD_NAME" value="validateInputAndResults" />
+      <option name="MAIN_CLASS_NAME" value="scripts.TechGlobalActionsTest" />
+      <option name="METHOD_NAME" value="clickActions" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -147,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TechGlobalActionsTest.clickActions" />
         <item itemvalue="TestNG.TechGlobalSortableTablesTest.validateSortDescByPrice" />
         <item itemvalue="TestNG.TechGlobalStaticTablesTest.validateAllCells" />
         <item itemvalue="TestNG.TechGlobalStaticTablesTest.validateTable" />
         <item itemvalue="TestNG.TechGlobalStaticTablesTest.validateRow" />
-        <item itemvalue="TestNG.TechGlobalIFramesTest.validateInputAndResults" />
       </list>
     </recent_temporary>
   </component>
